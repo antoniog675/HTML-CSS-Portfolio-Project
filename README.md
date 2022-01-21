@@ -68,7 +68,7 @@
         </ul>
     <li>Fonts</li>
         <ul>
-            <li>The fonts that are going to be used are 'Bebas Neue 400' for title and sub-headings</li>
+            <li>The fonts that are going to be used are 'Staatliches 400' for title and sub-headings</li>
             <li>For paragraphs I am using the 'Cairo 300' font</li>
         </ul>
     <li>Pictures</li>

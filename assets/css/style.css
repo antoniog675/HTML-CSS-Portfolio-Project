@@ -1,17 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Staatliches&display=swap');
 
-body h1, h2 {
-    font-family: Bebas, sans-serif;
+/* Fonts for the website*/
+body h1, h3 {
+    font-family: Staatliches, sans-serif;
 }
 
-.gym-info ul {
-    font-family: Cairo, sans-serif;
+#gym-info ul {
+    font-family: Cairo;
+}
+
+nav span {
+    font-family: Staatliches;
 }
 
 nav {
-    font-family: Bebas, sans-serif;
+    height: 25px;
 }
 
+/* Style for title and header*/
 .gym-header {
     background-color: #085394;
     color: white;
@@ -20,13 +26,62 @@ nav {
 
 .gym-header span {
     margin-right: 40px;
+    
 }
 
-.info-colums {
-    display: inline-block;
-    height: 300px;
-    width: 33%;
+/* Main body styling */
+
+#gym-info {
+    height: 500px;
 }
+
+#heading-block {
+    width: 100%;
+}
+
+#left-sub {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+#center-sub {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+#right-sub {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+#description-left {
+    height: auto;
+    background-color: yellow;
+    width: 33%;
+    float: right;
+}
+
+#description-center {
+    height: auto;
+    background-color: yellow;
+    width: 33%;
+    float: left;
+}
+
+#description-right { 
+    height: auto;
+    background-color: yellow;
+    width: 33%;
+    margin: 0 auto;
+}
+
+#join {
+    text-align: center;
+}
+/*Footer styling */
 
 .footer-block {
     background-color: #085394;
