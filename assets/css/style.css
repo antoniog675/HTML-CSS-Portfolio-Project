@@ -4,7 +4,7 @@ body h1, h2 {
     font-family: Bebas, sans-serif;
 }
 
-body p {
+.gym-info ul {
     font-family: Cairo, sans-serif;
 }
 
@@ -20,6 +20,12 @@ nav {
 
 .gym-header span {
     margin-right: 40px;
+}
+
+.info-colums {
+    display: inline-block;
+    height: 300px;
+    width: 33%;
 }
 
 .footer-block {
