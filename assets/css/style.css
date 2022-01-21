@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@300&display=swap');
 
+body h1, h2 {
+    font-family: Bebas, sans-serif;
+}
+
+body p {
+    font-family: Cairo, sans-serif;
+}
+
+nav {
+    font-family: Bebas, sans-serif;
+}
+
+.gym-header {
+    background-color: #085394;
+    color: white;
+}
+
+
+
+
+
 .footer-block {
     background-color: #085394;
     height: 50px;
