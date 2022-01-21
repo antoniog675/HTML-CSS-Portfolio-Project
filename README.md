@@ -1,108 +1,154 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1>What is Alpha Gym -</h1>
+<p>Alpha Gym is a website designed for people who are getting into fitness or are looking to join their local gym. The website will have information on the Gym, what the Gym has, whats the benefits of joining the gym, videos on the classes available, pictures of the gym, if they want to see the gym before they take a look at it. The website will have contact information if they have any doubts and will have community links where they will be re-directed to the gyms social pages where they can see updates of the gym, peoples reviews etc.</p>
 
-Welcome antoniog675,
+<h2>User Features</h2>
+<hr>
+<ul>
+    <li>Title and Navigation bar</li>
+        <ol>
+            <li>When first opening the website the first thing you are going to see is the title of the website AND right below it the navigation bar. The 'Alpha Gym' title will also work as a link and will do the same thing as the 'Home' link which will be to redirect the user to the home page. The Navigation bar includes a 'Home', 'Classes', 'Gallery' and a 'Join Now' link.</li>
+            <li>The navigation bar makes it clear and easy for the user to navigate through the website and look for information that is wanted</li>
+            <li>The links will be responsive for when users hover over it and the page you're currently on will be underlined</li>
+        </ol>
+</ul>
+<!-- Add image of the title and the navigation bar -->
+<ul>
+    <li>Information about the website</li>
+        <ol>
+            <li>In the home page there will be sub headings, 'Why get into fitness?', 'Why Alpha Gym?', and 'What do you get?' which will be divided into 3 colums with smaller paragraph below it</li>
+            <li>In the paragraphs below the sub-headings there will be a brief description of the each one.</li>
+            <li> Then right below all of the information there will be a "Join Now!" button which will take you to the Join Now page</li>
+            <li>The main purpose of a gym website is to get more people to join, so the main page will persuade users to join and that button will be there to help them be more decisive.</li>
+        </ol>
+</ul>
+<!-- Add Image of main page-->
+<ul>
+    <li>Classes page</li>
+        <ol>
+            <li>In this webpage there will be four columns, listing the classes that the gym has to offer which are Yoga, HIIT, Boxing and Spin class</li>
+            <li>Below each class there will be a video of each class, what it is and what you're going to expect. Users will have full control of the video playback, volume control etc.</li>
+            <li>There will be little icons for each class, makes it more appealing for users when they first visit the page</li>
+        </ol>
+</ul>
+<!-- Add screenshot of classes page-->
+<ul>
+    <li>Gallery page</li>
+        <ul>
+            <li>This webpage is going to be full of images of the gym, the equipment that can be accessed such as dumbbell, squat racks, bench press, cable machines and also pictures of the studios and classes.</li>
+        </ul>
+</ul>
+<!--add screenshot of the gallery page-->
+<ul>
+    <li>Contact and Community links</li>
+        <ul>
+            <li>Contact information will be at the footer of the webpage, in all the webpages, when you click the "contact" it won't be in a seperate page, it will just shoot down to the bottom of the whole webpage. Email will be the main form of contact for queries</li>
+            <li>There will be community links at the bottom, this will be a form of contact as well, the facebook and instagram links will take you the the "alpha gym" page, where you can also contact the organisation with queries.</li>
+            <li>Users that frequently visit the webpage can use the social media links to go to the community webpages where the can see constant updates of the gym and blogs.</li>
+        </l>
+</ul>
+<!--add screenshots of the community links and contact-->
+<ul>
+    <li>Join Now Form</li>
+        <ul>
+            <li>In the final page it is going to be the join now form</li>
+            <li>In this form we will be requesting the users Full name and their email address in order to sign up for the gym.</li>
+            <li>Will have a 'Submit' button, the input text box's will also be responsive for when users hover over it</li>
+        </ul>
+</ul>
+<!--add screenshots of the joining form-->
+<h2>The Design</h2>
+<hr>
+<ul>
+    <li>Colors</li>
+        <ul>
+            <li>The main colours that are going to be used in this website are blue and white.</li>
+            <li>Headings will have a blue background with the font-colour being white</li>
+            <li>Information of the webpage, the classes icon and the information there will have a black font. The description boxes will have a VERY light grey background</li>
+            <li>The footer is going to be black and the copyright section is going to be grey, both dark colours with white fonts to stand out from its background</li>
+        </ul>
+    <li>Fonts</li>
+        <ul>
+            <li>The fonts that are going to be used are 'Bebas Neue 400' for title and sub-headings</li>
+            <li>For paragraphs I am using the 'Cairo 300' font</li>
+        </ul>
+    <li>Pictures</li>
+        <ul>
+            <li>I am going to be using a background image for the join now form section, the form box is going to be transparent to make it more creative. The input text box's are going to be responsive for when the user hovers over it.</li>
+            <li>There will be 3 images in the main page, 4 videos in the classes page, showing users what they are going to expect in these classes, a gallery full of images of the gym, the studio, the equipment</li>
+        </ul>
+</ul>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<h2>Features</h2>
+<hr>
+<ul>
+    <li>Responsive on all device sizes</li>
+        <ol>
+            <li></li>
+        </ol>
+    <li>Interactive elements</li>
+        <ol>
+            <li></li>
+        </ol>
+</ul>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<h2>Technologies used</h2>
+<ul>
+    <li>Languages used</li>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+        </ul>
+    <li>Frameworks, libraries and Programs used</li>
+        <ul>
+            <li>Google Fonts</li>
+            <li>Font Awesome</li>
+            <li>Github</li>
+            <li>Gitpod</li>
+            <li>Balsamiq</li>
+        </ul>
+</ul>
 
-## Gitpod Reminders
+<h2>Testing</h2>
+<hr>
+<p>The testing for the website that was used is the 'W3C Markup Validator' for HTML and for the CSS I used 'W3C CSS Validator'</p>
+<!-- Input here cropped image of the results -->
+<ul>
+    <li></li>
+</ul>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+<h2>Deployment</h2>
+<hr>
+<ul>
+    <li>GitHub Pages</li>
+        <ul>
+            <li></li>
+        </ul>
+    <li>Forking the GitHub repository</li>
+        <ul>
+            <li></li>
+        </ul>
+    <li>Making a local cloe</li>
+        <ul>
+            <li></li>
+        </ul>
+</ul>
+<h2>Credits</h2>
+<hr>
+<ul>
+    <li>Code</li>
+        <ul>
+            <li></li>
+        </ul>
+    <li>Content</li>
+        <ul>
+            <li></li>
+        </ul>
+    <li>Media</li>
+        <ul>
+            <li></li>
+        </ul>
+    <li>Acknowledgements</li>
+        <ul>
+            <li></li>
+        </ul>
+</ul>
