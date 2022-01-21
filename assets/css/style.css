@@ -15,11 +15,12 @@ nav {
 .gym-header {
     background-color: #085394;
     color: white;
+    text-align: center;
 }
 
-
-
-
+.gym-header span {
+    margin-right: 40px;
+}
 
 .footer-block {
     background-color: #085394;

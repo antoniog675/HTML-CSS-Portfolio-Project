@@ -135,6 +135,7 @@
 <h2>Credits</h2>
 <ul>
     <li>Credits to Code isntitute for allowing me to use their README template as a reference and allowing me to use their pre-built website base<li>
+    <li>Thanks to font-awesome for letting my use their services to be able to add icons in my webpage</li>
 </ul>
 <hr>
 <ul>
