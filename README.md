@@ -133,6 +133,9 @@
         </ul>
 </ul>
 <h2>Credits</h2>
+<ul>
+    <li>Credits to Code isntitute for allowing me to use their README template as a reference and allowing me to use their pre-built website base<li>
+</ul>
 <hr>
 <ul>
     <li>Code</li>
