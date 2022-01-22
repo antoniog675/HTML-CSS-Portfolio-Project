@@ -11,7 +11,6 @@
             <li>The links will be responsive for when users hover over it and the page you're currently on will be underlined</li>
         </ol>
 </ul>
-![](images/Home.png)
 <!-- Add image of the title and the navigation bar -->
 <ul>
     <li>Information about the website</li>
@@ -78,6 +77,9 @@
             <li>There will be 3 images in the main page, 4 videos in the classes page, showing users what they are going to expect in these classes, a gallery full of images of the gym, the studio, the equipment</li>
         </ul>
 </ul>
+<h2>Wireframes</h2>
+
+![](assets/images/Home.png)
 
 <h2>Features</h2>
 <hr>
