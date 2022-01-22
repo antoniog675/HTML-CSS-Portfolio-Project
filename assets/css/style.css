@@ -17,6 +17,10 @@ nav {
     height: 25px;
 }
 
+footer {
+    font-family: Cairo;
+}
+
 /* Style for title and header*/
 .gym-header {
     background-color: #085394;
@@ -54,7 +58,7 @@ nav {
 #right-sub {
     display: inline-block;
     width: 20%;
-    text-align: center;
+    text-align: right;
 }
 
 #description-container {
@@ -88,16 +92,9 @@ nav {
 #join-button {
     margin-bottom: 10px;
 }
-/*Footer styling */
-
-.footer-block {
-    background-color: #085394;
-    height: 50px;
-    max-width: 100%;
-}
 
 #image-container img {
-    height: 200px;
+    height: 225px;
     width: 30%;
 }
 
@@ -111,4 +108,32 @@ nav {
 
 #right-image {
     margin-left: 25px;
+}
+
+/*Footer styling */
+
+.footer-block {
+    background-color: #085394;
+    height: 50px;
+    max-width: 100%;
+}
+
+#copyright {
+    background: #666666;
+    color: white;
+    text-align: right;
+}
+
+#contact-details {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+
+#contact {
+    padding: 10px;
+}
+.social {
+    display: inline-block;
+    margin: 10px 50px 10px 50px;
 }
