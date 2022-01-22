@@ -32,7 +32,7 @@ nav {
 /* Main body styling */
 
 #gym-info {
-    height: 500px;
+    height: auto;
 }
 
 #heading-block {
@@ -57,23 +57,26 @@ nav {
     text-align: center;
 }
 
+#description-container {
+    height: 300px;
+}
 #description-left {
     height: auto;
-    background-color: yellow;
+    background-color: #EEEEEE;
     width: 33%;
     float: right;
 }
 
 #description-center {
     height: auto;
-    background-color: yellow;
+    background-color: #EEEEEE;
     width: 33%;
     float: left;
 }
 
 #description-right { 
     height: auto;
-    background-color: yellow;
+    background-color: #EEEEEE;
     width: 33%;
     margin: 0 auto;
 }
@@ -94,6 +97,18 @@ nav {
 }
 
 #image-container img {
-    height: 150px;
-    display: inline-block;
+    height: 200px;
+    width: 30%;
+}
+
+#left-image {
+    margin-right: 10px;
+}
+
+#center-image {
+    margin: 0 25px 0 25px;
+}
+
+#right-image {
+    margin-left: 25px;
 }
