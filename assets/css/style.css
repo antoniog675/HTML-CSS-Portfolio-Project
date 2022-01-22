@@ -81,10 +81,19 @@ nav {
 #join {
     text-align: center;
 }
+
+#join-button {
+    margin-bottom: 10px;
+}
 /*Footer styling */
 
 .footer-block {
     background-color: #085394;
     height: 50px;
     max-width: 100%;
+}
+
+#image-container img {
+    height: 150px;
+    display: inline-block;
 }
