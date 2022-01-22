@@ -11,6 +11,7 @@
             <li>The links will be responsive for when users hover over it and the page you're currently on will be underlined</li>
         </ol>
 </ul>
+![](images/Home.png)
 <!-- Add image of the title and the navigation bar -->
 <ul>
     <li>Information about the website</li>

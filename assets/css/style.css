@@ -63,11 +63,27 @@ section {
 }
 
 .join-button {
-    float: left;
+    text-align: center;
 }
 
-.image-style {
+.image-left {
+    width: 85%;    
+    margin-top: 10px;
+}
+
+.image-right {
     width: 50%;    
+}
+
+.image-center {
+    width: 80%;    
+}
+
+.reviews-background-image {
+    width: 100%;
+    height: 25px;
+    background-color: blue;
+    clear: both;
 }
 
 /*Footer styling */
