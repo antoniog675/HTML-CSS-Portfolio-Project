@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Caveat&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Sedgwick+Ave&family=Staatliches&display=swap');
 
 /* Fonts for the website*/
 body h1, h3 {
@@ -18,7 +18,7 @@ footer {
 }
 
 .reviews-background-image div p {
-    font-family: Caveat, sans-serif;
+    font-family: Sedgwick Ave;
     font-size: x-large;
 }
 
@@ -93,21 +93,25 @@ section {
 }
 
 .reviews-container-right {
-    background-color: red;
+    background: rgba(192, 192, 192, 0.5);
     height: auto;
     width: 25%;
     float: right;
+    margin-right: 20px;
+    margin-top: 50px;
 }
 
 .reviews-container-left {
-    background-color: blue;
+    background: rgba(192, 192, 192, 0.5);
     height: auto;
     width: 25%;
     float: left;
+    margin-left: 20px;
+    margin-top: 12px;
 }
 
 .reviews-container-center {
-    background-color: green;
+    background: rgba(192, 192, 192, 0.5);
     height: auto;
     width: 25%;
     margin: 0 auto;
