@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Caveat&family=Staatliches&display=swap');
 
 /* Fonts for the website*/
 body h1, h3 {
@@ -15,6 +15,11 @@ nav {
 
 footer {
     font-family: Cairo;
+}
+
+.reviews-background-image div p {
+    font-family: Caveat, sans-serif;
+    font-size: x-large;
 }
 
 /* Style for title and header*/
@@ -85,6 +90,27 @@ section {
     background-image: url(../images/background-image2.jpg);
     clear: both;
     background-size: cover;
+}
+
+.reviews-container-right {
+    background-color: red;
+    height: auto;
+    width: 25%;
+    float: right;
+}
+
+.reviews-container-left {
+    background-color: blue;
+    height: auto;
+    width: 25%;
+    float: left;
+}
+
+.reviews-container-center {
+    background-color: green;
+    height: auto;
+    width: 25%;
+    margin: 0 auto;
 }
 
 /*Footer styling */

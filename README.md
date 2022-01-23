@@ -70,6 +70,7 @@
         <ul>
             <li>The fonts that are going to be used are 'Staatliches 400' for title and sub-headings</li>
             <li>For paragraphs I am using the 'Cairo 300' font</li>
+            <li>And for the review section in the main page I am using "Caveat 400"</li>
         </ul>
     <li>Pictures</li>
         <ul>
