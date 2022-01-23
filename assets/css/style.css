@@ -4,6 +4,10 @@
 body h1, h3 {
     font-family: Staatliches, sans-serif;
 }
+a {
+    color: white;
+    text-decoration: none;
+}
 
 nav span {
     font-family: Staatliches;
@@ -11,6 +15,10 @@ nav span {
 
 nav {
     height: 25px;
+}
+
+ul {
+    font-family: Cairo;
 }
 
 footer {
@@ -117,6 +125,24 @@ section {
     margin: 0 auto;
 }
 
+.nav-hover a:hover {
+    background-color: white;
+    color: #085394;
+}
+
+#active {
+    border-bottom: 2px solid white;
+}
+
+/*classes page */
+
+.exercise-containers {
+    height: 100px;
+    width: 24%;
+    background-color: black;
+    display: inline-block;
+    margin: 5px 0px 0px 7px;
+}
 /*Footer styling */
 
 .copyright {
