@@ -17,7 +17,7 @@ nav {
     height: 25px;
 }
 
-ul {
+ul, button {
     font-family: Cairo;
 }
 
@@ -77,6 +77,20 @@ section {
 
 .join-now {
     text-align: center;
+    background-color: #666666
+}
+
+button {
+    background-color:#085394;
+    color: white;
+    padding: 10px;
+    border-color: #085394;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: white;
+    color: #085394
 }
 
 .image-left {
@@ -137,9 +151,8 @@ section {
 /*classes page */
 
 .exercise-containers {
-    height: 100px;
+    height: 100%;
     width: 24%;
-    background-color: black;
     display: inline-block;
     margin: 5px 0px 0px 7px;
 }
