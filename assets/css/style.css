@@ -22,7 +22,7 @@ ul, button {
 }
 
 footer {
-    font-family: Cairo Helvetica;
+    font-family: Cairo, Helvetica;
 }
 
 .reviews-background-image div p {
@@ -35,6 +35,8 @@ footer {
     background-color: #085394;
     color: white;
     text-align: center;
+    position: sticky;
+    top: 0px;
 }
 
 .gym-header span {
@@ -155,11 +157,13 @@ button:hover {
     width: 24%;
     display: inline-block;
     margin: 5px 0px 0px 9px;
+    vertical-align: top;
 }
 
 video {
     width: 100%;
 }
+
 h3 {
     text-align: center;
 }
@@ -184,6 +188,7 @@ h3 {
 .contact {
     padding: 10px;
 }
+
 .social {
     display: inline-block;
     margin: 10px 50px 10px 50px;
