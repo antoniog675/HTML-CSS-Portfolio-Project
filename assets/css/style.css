@@ -159,6 +159,7 @@ button:hover {
     display: inline-block;
     margin: 5px 0px 0px 9px;
     vertical-align: top;
+    background-color: #eeeeee;
 }
 
 video {
@@ -194,4 +195,15 @@ h3 {
     display: inline-block;
     margin: 10px 50px 10px 50px;
     font-size: x-large;
+}
+
+/* Media Query for responsiveness in the webpage */
+
+/* For tablet */
+
+@media screen and (max-width: 1200px) {
+    section {
+        width: 75%;
+        height: auto;
+    }
 }
