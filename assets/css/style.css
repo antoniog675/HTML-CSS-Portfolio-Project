@@ -203,27 +203,44 @@ h3 {
 
 @media screen and (max-width: 1200px) {
     section {
-        width: 75%;
+        width: 100%;
         height: auto;
         margin: 0 auto;
     }
 
     .gym-header {
-        width: 75%;
+        width: 100%;
         margin: 0 auto;
     }
 
     footer {
-        width: 75%;
+        width: 100%;
         margin: 0 auto;
     }
 
     .reviews-container-left, .reviews-container-right {
-        transform: scale(0.7);
+        transform: scale(0.8);
         width: 35%;
     }
 
     .exercise-containers {
+        width: 48%;
+    }
+}
+
+/* For mobile phones */
+
+@media screen and (max-width: 750px) {
+    section, .gym-header, footer, .right-container, .left-container, .center-container {
+        width: 100%;
+    }
+
+    .right-container, .left-container, .center-container {
+        margin-bottom: 20px;
+    }
+
+    .reviews-container-left, .reviews-container-right {
         width: 45%;
+        transform: scale(0.7)
     }
 }
