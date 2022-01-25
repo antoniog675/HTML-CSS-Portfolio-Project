@@ -222,4 +222,8 @@ h3 {
         transform: scale(0.7);
         width: 35%;
     }
+
+    .exercise-containers {
+        width: 45%;
+    }
 }
