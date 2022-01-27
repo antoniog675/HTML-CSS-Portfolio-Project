@@ -158,17 +158,23 @@ button:hover {
 
 /*classes page */
 
+.class-containers {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
 .exercise-containers {
-    height: 100%;
-    width: 24%;
-    display: inline-block;
-    margin: 5px 0px 0px 9px;
-    vertical-align: top;
-    background-color: #eeeeee;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 23%;
+    background: #eeeeee;
 }
 
 video {
-    width: 100%;
+    width: 90%;
 }
 
 h3 {
@@ -177,6 +183,18 @@ h3 {
 .exercise-containers p {
     font-family: Cairo, Helvetica;
     text-align: center;
+}
+
+/*  Gallery styling */
+
+.gallery {
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;;
+}
+
+.gallery > img {
+    width: 100%;
 }
 /*Footer styling */
 
@@ -212,45 +230,9 @@ footer {
 /* For tablet */
 
 @media screen and (max-width: 1200px) {
-    section {
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
-    }
-
-    .gym-header {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    footer {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .reviews-container-left, .reviews-container-right {
-        transform: scale(0.8);
-        width: 35%;
-    }
-
-    .exercise-containers {
-        width: 48%;
-    }
 }
-
 /* For mobile phones */
 
-@media screen and (max-width: 750px) {
-    section, .gym-header, footer, .right-container, .left-container, .center-container {
-        width: 100%;
-    }
-
-    .right-container, .left-container, .center-container {
-        margin-bottom: 20px;
-    }
-
-    .reviews-container-left, .reviews-container-right {
-        width: 45%;
-        transform: scale(0.7)
-    }
+@media screen and (max-width: 500px) {
+    
 }
