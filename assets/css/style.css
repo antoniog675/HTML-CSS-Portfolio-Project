@@ -48,6 +48,7 @@ footer {
 
 body {
     height: 100%;
+    width: 100%;
 }
 
 section {
@@ -58,6 +59,7 @@ section {
 
 .gym-description-container {
     display: flex;
+    margin-top: 10px;
     margin-bottom: 20px;    
     justify-content: space-between;
 }
@@ -66,23 +68,66 @@ section {
 .left-container {
     order: 1;
     text-align: center;
-    background-color: red;
+    background-color: #eeeeee;
     width: 33%;
 }
 
 .center-container {
     order: 2;
-    background-color: red;
+    background-color: #eeeeee;
     text-align: center;
     width: 33%;
 }
 
 .right-container {
     order: 3;
-    background-color: red;
+    background-color: #eeeeee;
     text-align: center;
     width: 33%;
 }
+
+.image-left {
+    width: 50%;
+}
+
+.image-right {
+    width: 85%;    
+}
+
+.image-center {
+    width: 80%;    
+}
+
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e1e1e1;
+    align-items: center;
+}
+
+.reviews-container-1 {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+    width: 80%;
+}
+
+.reviews-container-2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+    width: 75%;
+}
+
+.image-reviews {
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+}
+
 
 .join-now {
     text-align: center;
@@ -100,40 +145,6 @@ button {
 button:hover {
     background-color: white;
     color: #085394
-}
-
-.image-left {
-    width: 85%;    
-    margin-top: 10px;
-}
-
-.image-right {
-    width: 50%;    
-}
-
-.image-center {
-    width: 80%;    
-}
-
-.reviews-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.reviews-container-right {
-    flex: 1;
-    color: black;
-}
-
-.reviews-container-left {
-    flex: 1;
-    color: black;
-}
-
-.reviews-container-center {
-    flex: 1;
-    background-image: url(../images/background-image3.jpeg);
 }
 
 .nav-hover a:hover {
