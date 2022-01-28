@@ -17,7 +17,7 @@ nav {
     height: 25px;
 }
 
-ul, button {
+ul, .button {
     font-family: Cairo, Helvetica;
 }
 
@@ -131,18 +131,21 @@ section {
 
 .join-now {
     text-align: center;
-    background-color: #666666
+    background-color: #666666;
 }
 
-button {
+.button {
     background-color:#085394;
     color: white;
-    padding: 10px;
     border-color: #085394;
     font-weight: bold;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: larger;
 }
 
-button:hover {
+.button:hover {
     background-color: white;
     color: #085394
 }
