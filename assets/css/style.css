@@ -293,11 +293,37 @@ footer {
 /* For tablet */
 
 @media screen and (max-width: 1200px) {
+    /* classes.html responsiveness */
+    .class-containers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .exercise-containers {
+        width: 100%;
+    }
+    
+    .gallery {
+        line-height: 0;
+        column-count: 1;
+        column-gap: 0;
+    }
+
+    /* Join now form*/
+    form {
+        width: 75%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+    }
+
 
 }
+
 /* For mobile phones */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     /* Index.html responsiveness */
     .gym-description-container {
         display: flex;
@@ -321,7 +347,7 @@ footer {
     /* Gallery.html responsiveness style*/
     .gallery {
         line-height: 0;
-        column-count: 2;
+        column-count: 1;
         column-gap: 0;
     }
 
