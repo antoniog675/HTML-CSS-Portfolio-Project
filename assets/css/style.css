@@ -47,7 +47,9 @@ footer {
 /* Main body styling */
 
 body {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     width: 100%;
 }
 
@@ -206,7 +208,7 @@ h3 {
 .join-now-form {
     background-image: url("../images/join-background-image.jpg");
     background-size: cover;
-    height: 600px;
+    height: 100%;
     width: 100%;
 }
 
@@ -266,8 +268,8 @@ label {
 /*Footer styling */
 
 footer {
-    position: absolute;
     width: 100%;
+    margin-top: auto;
 }
 
 .copyright {
@@ -301,6 +303,7 @@ footer {
     .class-containers {
         display: flex;
         flex-direction: column;
+        min-height: 100vh;
     }
 
     .exercise-containers {

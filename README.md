@@ -154,8 +154,8 @@ The Alpha Gym website will also have content such as classes to show people what
 
 </ul>
 
-<ul>Bugs
-    <li>When I deploy my website on the classes, the yoga video is not working, but on the gitpod server it works perfectly??</li>
+<ul><h2>Solved bugs</h2>
+    <li>Yoga video on the classes section was not working when I deployed my website online, the issues was the file path was /assets/images/yoga-vid.mp4, to fix this I removed the forward slash in the beginning so that the path was now assets/images/yoga-vid.mp4 and this fixed the bug</li>
 </ul>
 
 <h2>Deployment</h2>
@@ -168,14 +168,6 @@ The Alpha Gym website will also have content such as classes to show people what
             <li>The screen will open up to general settings, you will scroll down until you find Github Pages, select this</li>
             <li>On this page go to source, edit the branch to '/main' and the folder make sure it is on '/(root)', click save and then a link will be generated for your website</li>
             <li>You can now deploy your website online</li>
-        </ul>
-    <li>Forking the GitHub repository</li>
-        <ul>
-            <li></li>
-        </ul>
-    <li>Making a local clone?</li>
-        <ul>
-            <li></li>
         </ul>
 </ul>
 <h2>Credits</h2>
@@ -197,6 +189,7 @@ The Alpha Gym website will also have content such as classes to show people what
         </ul>
     <li>Acknowledgements</li>
         <ul>
-            <li></li>
+            <li>Massive thanks to my mentor for guiding me through my project and helping me solve problems</li>
+            <li>A big thanks to the student support system 'Slack', I ran into the same issues as other students and just going through other people's queries I was able to find solutions to my projects bugs as well.</li>
         </ul>
 </ul>
