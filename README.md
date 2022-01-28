@@ -12,8 +12,8 @@ The Alpha Gym website will also have content such as classes to show people what
     <li>Title and Navigation bar</li>
         <ul>
             <li>When first opening the website the first thing you are going to see is the title of the website AND right below it the navigation bar. The 'Alpha Gym' title will also work as a link and will do the same thing as the 'Home' link which will be to redirect the user to the home page. The Navigation bar includes a 'Home', 'Classes', 'Gallery' and a 'Join Now' link.</li>
-            <li>The navigation bar makes it clear and easy for the user to navigate through the website and look for information that is wanted, if 'Classes' page will have information on what kind of classes the gym offers, the 'Gallery' will contain images of the gym, people like to see how a gym looks like before they come and visit.</li>
-            <li>The links will be responsive for when users hover over it and the page you're currently on will be underlined</li>
+            <li>The navigation bar makes it clear and easy for the user to navigate through the website and look for information that is wanted, the 'Classes' page will have information on what kind of classes the gym offers, the 'Gallery' will contain images of the gym, people like to see how a gym looks like before they come and visit.</li>
+            <li>The links will be responsive for when users hover over it and the page you're currently on will be underlined, just a feature to help users know where they are on the site</li>
             <li>Navigation bar will always be at the top of the screen for when users scroll to the bottom, they would still be able to select a different page without having the need to scroll up.</li>
         </ul>
 </ul>
@@ -24,9 +24,10 @@ The Alpha Gym website will also have content such as classes to show people what
         <ul>
             <li>The main page will have 3 sections with information regarding the gym. The left section will have information on the benefits of getting into fitness.
             </li>
-            <li>The center section will have information on why 'Alpha Gym' is the gym you would want to go to instead of other local gyms. Such as the benefits of joining this gym gym and our competitive price.</li>
-            <li>Below this section there will be a a testimonial section from members.</li>
+            <li>The center section will have information on why 'Alpha Gym' is the gym you would want to go to instead of other local gyms. Such as the benefits of joining this gym and it's competitive price.</li>
             <li> Then right below all of the information there will be a "Join Now!" button which will take users to the Join Now page</li>
+            <li>Below this section there will be a a testimonial section from current members to help persuade people looking at the site to join.</li>
+            <li>Below the testimonial section there will be the a join now button which will redirect them to the form which will help them sign up.</li>
         </ul>
 </ul>
 
@@ -51,16 +52,17 @@ The Alpha Gym website will also have content such as classes to show people what
     <li>Gallery page</li>
         <ul>
             <li>This webpage is going to be full of images of the gym, the equipment that can be accessed such as dumbbell, squat racks, bench press, cable machines, also pictures of the studios,classes, showers and sauna.</li>
+            <li>This is helps people looking to join a gym to get a good idea of what a gym looks like and puts them more at ease</li>
         </ul>
 </ul>
 
-![](assets/images/gallery-page.png)
+![](assets/images/gallery-page2.png)
 
 <ul>
     <li>Join Now Form</li>
         <ul>
             <li>In the final page it is going to be the join now form</li>
-            <li>In this form we will be requesting the users Full name and their email address in order to sign up for the gym.</li>
+            <li>In this form we will be requesting the users First name, their last name and their email address in order to sign up for the gym.</li>
             <li>Will have a 'Submit' button, the input text box's will also be responsive for when users hover over it</li>
         </ul>
 </ul>
@@ -70,9 +72,9 @@ The Alpha Gym website will also have content such as classes to show people what
 <ul>
     <li>Contact and Community links</li>
         <ul>
-            <li>Contact information will be at the footer of the webpage, in all the webpages, when you click the "contact" it won't be in a seperate page, it will just shoot down to the bottom of the whole webpage. Email will be the main form of contact for queries</li>
-            <li>There will be community links at the bottom, this will be a form of contact as well, the facebook and instagram links will take you the the "alpha gym" page, where you can also contact the organisation with queries.</li>
-            <li>Users that frequently visit the webpage can use the social media links to go to the community webpages where the can see constant updates of the gym and blogs.</li>
+            <li>Contact information can be found at the bottom of all the webpages, this ensures that if they have any queries, or want to look at more images or reviews of the gym the can click on the Facebook and Instagram links to find these informations. Email link will also be available incase they want to be contacted through there instead of their personal/private accounts.</li>
+            <li>Email link will also be available incase they want to be contacted through there instead of their personal/private accounts.</li>
+            <li>Users that frequently visit the webpage can use the social media links to go to the community webpages where the can see constant updates of the gym, blogs and reviews.</li>
         </l>
 </ul>
 
@@ -82,8 +84,8 @@ The Alpha Gym website will also have content such as classes to show people what
 <ul>
     <li>Colors</li>
         <ul>
-            <li>The main colours that are going to be used in this website are blue and white.</li>
-            <li>Headings will have a blue background with the font-colour being white</li>
+            <li>The main colours that are going to be used in this website are blue (#085394) and white.</li>
+            <li>Main title and Nav bar will have a blue background with the font-colour being white</li>
             <li>Information of the webpage, the classes icon and the information there will have a black font. The description boxes will have a VERY light grey background</li>
             <li>The footer is going to be black and the copyright section is going to be grey, both dark colours with white fonts to stand out from its background</li>
         </ul>
@@ -110,13 +112,13 @@ The Alpha Gym website will also have content such as classes to show people what
 <hr>
 <ul>
     <li>Responsive on all device sizes</li>
-        <ol>
+        <ul>
             <li></li>
-        </ol>
+        </ul>
     <li>Interactive elements</li>
-        <ol>
-            <li></li>
-        </ol>
+        <ul>
+            <li>Links will change colors when users hover over them, except for the Main title, nav bar links will get a background of white and a font color of blue(#085394) </li>
+        </ul>
 </ul>
 
 <h2>Technologies used</h2>
@@ -138,16 +140,22 @@ The Alpha Gym website will also have content such as classes to show people what
 
 <h2>Testing</h2>
 <hr>
-<p>The testing for the website that was used is 'W3C Markup Validator' for HTML and for the CSS I used 'W3C CSS Validator'</p>
+<p>The testing for the website that was used is 'W3C Markup Validator' for HTML and for the CSS I used 'W3C CSS Validator' and for accessibility I used the lighthouse feature from google.</p>
 <!-- Input here cropped image of the results -->
 <ul><h3>CSS</h3>
     <li>There were no errors found when passing my CSS code in the W3C CSS validator</li>
-    <li>Passing through the HTML validator my website did fail on the buttom, as I stored a button input in an anchor element</li>
+    <li>Passing through the HTML validator my website did fail on the button, as I stored a button input in an anchor element, this is no solved</li>
     <li>There were warnings on some pages regarding the section areas, it was asking for headers, problems now solved</li>
 </ul>
+<ul><h2>Accessibility</h2>
+    <li>I used the lighthouse feature on devtools to show that the colors used, sizes of fonts and the way the site has been structured is easy to read</li>
+
+![](assets/images/lighthouse-website.png)
+
+</ul>
+
 <ul>Bugs
     <li>When I deploy my website on the classes, the yoga video is not working, but on the gitpod server it works perfectly??</li>
-    <li>Header for gallery is not popping up, appears on my gitpod server but not when deployed</li>
 </ul>
 
 <h2>Deployment</h2>
@@ -180,18 +188,13 @@ The Alpha Gym website will also have content such as classes to show people what
 <ul>
     <li>Code</li>
         <ul>
-            <li></li>
-        </ul>
-    <li>Content</li>
-        <ul>
-            <li></li>
+            <li>The Masonary layout code was taken from the Love Running projects gallery</li>
         </ul>
     <li>Media</li>
         <ul>
-            <li>Videos were retrieved using the [Pexels](https://www.pexels.com) site</li>
+            <li>Videos were retrieved using [Pexels](https://www.pexels.com/)</li>
             <li>The other images were just found on google searching keywords such as fitness, gym, gym classes, gym equipment</li>
         </ul>
-        <li>The other images were just found on google searching keywords such as fitness, gym, gym classes, gym equipment</li>
     <li>Acknowledgements</li>
         <ul>
             <li></li>
