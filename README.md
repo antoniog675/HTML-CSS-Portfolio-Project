@@ -147,20 +147,25 @@ The Alpha Gym website will also have content such as classes to show people what
 </ul>
 <ul>Bugs
     <li>When I deploy my website on the classes, the yoga video is not working, but on the gitpod server it works perfectly??</li>
+    <li>Header for gallery is not popping up, appears on my gitpod server but not when deployed</li>
 </ul>
 
 <h2>Deployment</h2>
 <hr>
 <ul>
     <li>GitHub Pages</li>
-        <ul>
-            <li></li>
+        <ol><h3>To deploy my website I did the following...</h3>
+            <li>Go on to Github and navigate to the the repository that is wanted to be delpoyed</li>
+            <li>Select it and then click on settings which can be found JUST above the Gitpod button</li>
+            <li>The screen will open up to general settings, you will scroll down until you find Github Pages, select this</li>
+            <li>On this page go to source, edit the branch to '/main' and the folder make sure it is on '/(root)', click save and then a link will be generated for your website</li>
+            <li>You can now deploy your website online</li>
         </ul>
     <li>Forking the GitHub repository</li>
         <ul>
             <li></li>
         </ul>
-    <li>Making a local cloe</li>
+    <li>Making a local clone?</li>
         <ul>
             <li></li>
         </ul>
@@ -183,8 +188,10 @@ The Alpha Gym website will also have content such as classes to show people what
         </ul>
     <li>Media</li>
         <ul>
-            <li></li>
+            <li>Videos were retrieved using the [Pexels](https://www.pexels.com) site</li>
+            <li>The other images were just found on google searching keywords such as fitness, gym, gym classes, gym equipment</li>
         </ul>
+        <li>The other images were just found on google searching keywords such as fitness, gym, gym classes, gym equipment</li>
     <li>Acknowledgements</li>
         <ul>
             <li></li>
