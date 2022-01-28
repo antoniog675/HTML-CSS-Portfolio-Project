@@ -1,52 +1,57 @@
 <h1>What is Alpha Gym -</h1>
-<p>Alpha Gym is a website designed for people who are getting into fitness or are looking to join their local gym. The website will have information on the Gym, what the Gym has, whats the benefits of joining the gym, videos on the classes available, pictures of the gym, if they want to see the gym before they take a look at it. The website will have contact information if they have any doubts and will have community links where they will be re-directed to the gyms social pages where they can see updates of the gym, peoples reviews etc.</p>
+<p>Alpha Gym is a website designed to target people who are getting into fitness or are looking to join their local gym. The website will have information on why people should start getting into fitness, WHY they should join Alpha Gym and what this gym has to offer upon becoming a member
 
+The Alpha Gym website will also have content such as classes to show people what the classes are that they can sign up to, a gallery of the gym to be a ble to view it prior to visiting it, and a join now page where they can become members.
+</p>
 <h2>User Features</h2>
 <hr>
 <ul>
     <li>Title and Navigation bar</li>
-        <ol>
+        <ul>
             <li>When first opening the website the first thing you are going to see is the title of the website AND right below it the navigation bar. The 'Alpha Gym' title will also work as a link and will do the same thing as the 'Home' link which will be to redirect the user to the home page. The Navigation bar includes a 'Home', 'Classes', 'Gallery' and a 'Join Now' link.</li>
-            <li>The navigation bar makes it clear and easy for the user to navigate through the website and look for information that is wanted</li>
+            <li>The navigation bar makes it clear and easy for the user to navigate through the website and look for information that is wanted, if 'Classes' page will have information on what kind of classes the gym offers, the 'Gallery' will contain images of the gym, people like to see how a gym looks like before they come and visit.</li>
             <li>The links will be responsive for when users hover over it and the page you're currently on will be underlined</li>
-        </ol>
+            <li>Navigation bar will always be at the top of the screen for when users scroll to the bottom, they would still be able to select a different page without having the need to scroll up.</li>
+        </ul>
 </ul>
-<!-- Add image of the title and the navigation bar -->
+
+![](assets/images/nav-bar.png)
 <ul>
-    <li>Information about the website</li>
-        <ol>
-            <li>In the home page there will be sub headings, 'Why get into fitness?', 'Why Alpha Gym?', and 'What do you get?' which will be divided into 3 colums with smaller paragraph below it</li>
-            <li>In the paragraphs below the sub-headings there will be a brief description of the each one.</li>
-            <li> Then right below all of the information there will be a "Join Now!" button which will take you to the Join Now page</li>
-            <li>The main purpose of a gym website is to get more people to join, so the main page will persuade users to join and that button will be there to help them be more decisive.</li>
-        </ol>
+    <li>Home Page</li>
+        <ul>
+            <li>The main page will have 3 sections with information regarding the gym. The left section will have information on the benefits of getting into fitness.
+            </li>
+            <li>The center section will have information on why 'Alpha Gym' is the gym you would want to go to instead of other local gyms. Such as the benefits of joining this gym gym and our competitive price.</li>
+            <li>Below this section there will be a a testimonial section from members.</li>
+            <li> Then right below all of the information there will be a "Join Now!" button which will take users to the Join Now page</li>
+        </ul>
 </ul>
-<!-- Add Image of main page-->
+
+![](assets/images/gym-info.png)
+<hr>
+![](assets/images/testimonials-info.png)
+
 <ul>
     <li>Classes page</li>
-        <ol>
+        <ul>
             <li>In this webpage there will be four columns, listing the classes that the gym has to offer which are Yoga, HIIT, Boxing and Spin class</li>
-            <li>Below each class there will be a video of each class, what it is and what you're going to expect. Users will have full control of the video playback, volume control etc.</li>
+            <li>Below each class there will be a video of what members are going to expect in each class and information of what the class is going to offer. Users will have full control of the video playback, volume control etc.</li>
             <li>There will be little icons for each class, makes it more appealing for users when they first visit the page</li>
-        </ol>
+            <li>And again, a join now button will be at the bottom of the main body</li>
+        </ul>
 </ul>
-<!-- Add screenshot of classes page-->
+
+![](assets/images/class-page-info.png)
+
 <ul>
     <li>Gallery page</li>
         <ul>
-            <li>This webpage is going to be full of images of the gym, the equipment that can be accessed such as dumbbell, squat racks, bench press, cable machines and also pictures of the studios and classes.</li>
+            <li>This webpage is going to be full of images of the gym, the equipment that can be accessed such as dumbbell, squat racks, bench press, cable machines, also pictures of the studios,classes, showers and sauna.</li>
         </ul>
 </ul>
-<!--add screenshot of the gallery page-->
-<ul>
-    <li>Contact and Community links</li>
-        <ul>
-            <li>Contact information will be at the footer of the webpage, in all the webpages, when you click the "contact" it won't be in a seperate page, it will just shoot down to the bottom of the whole webpage. Email will be the main form of contact for queries</li>
-            <li>There will be community links at the bottom, this will be a form of contact as well, the facebook and instagram links will take you the the "alpha gym" page, where you can also contact the organisation with queries.</li>
-            <li>Users that frequently visit the webpage can use the social media links to go to the community webpages where the can see constant updates of the gym and blogs.</li>
-        </l>
-</ul>
-<!--add screenshots of the community links and contact-->
+
+![](assets/images/gallery-page.png)
+
 <ul>
     <li>Join Now Form</li>
         <ul>
@@ -55,7 +60,20 @@
             <li>Will have a 'Submit' button, the input text box's will also be responsive for when users hover over it</li>
         </ul>
 </ul>
-<!--add screenshots of the joining form-->
+
+![](assets/images/form-page.png)
+
+<ul>
+    <li>Contact and Community links</li>
+        <ul>
+            <li>Contact information will be at the footer of the webpage, in all the webpages, when you click the "contact" it won't be in a seperate page, it will just shoot down to the bottom of the whole webpage. Email will be the main form of contact for queries</li>
+            <li>There will be community links at the bottom, this will be a form of contact as well, the facebook and instagram links will take you the the "alpha gym" page, where you can also contact the organisation with queries.</li>
+            <li>Users that frequently visit the webpage can use the social media links to go to the community webpages where the can see constant updates of the gym and blogs.</li>
+        </l>
+</ul>
+
+![](assets/images/footer-contact-info.png)
+<!--add screenshots of the community links and contact-->
 <h2>The Design</h2>
 <hr>
 <ul>
@@ -75,12 +93,15 @@
     <li>Pictures</li>
         <ul>
             <li>I am going to be using a background image for the join now form section, the form box is going to be transparent to make it more creative. The input text box's are going to be responsive for when the user hovers over it.</li>
-            <li>There will be 3 images in the main page, 4 videos in the classes page, showing users what they are going to expect in these classes, a gallery full of images of the gym, the studio, the equipment</li>
+            <li>There will be 5 images in the main page, 4 videos in the classes page, showing users what they are going to expect in these classes, and the gallery will have 10 images of what the gym looks like, such as gym equipment, sauna, studios, classes etc.</li>
         </ul>
 </ul>
 <h2>Wireframes</h2>
 
-![](assets/images/Home.png)
+![Main page]()
+![Classes page]()
+![Gallery page]()
+![Join now page]()
 
 <h2>Features</h2>
 <hr>
