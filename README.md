@@ -3,6 +3,9 @@
 
 The Alpha Gym website will also have content such as classes to show people what the classes are that they can sign up to, a gallery of the gym to be a ble to view it prior to visiting it, and a join now page where they can become members.
 </p>
+
+![](assets/images/amiresponsive-picture.png)
+
 <h2>User Features</h2>
 <hr>
 <ul>
@@ -29,6 +32,7 @@ The Alpha Gym website will also have content such as classes to show people what
 
 ![](assets/images/gym-info.png)
 <hr>
+
 ![](assets/images/testimonials-info.png)
 
 <ul>
@@ -73,7 +77,6 @@ The Alpha Gym website will also have content such as classes to show people what
 </ul>
 
 ![](assets/images/footer-contact-info.png)
-<!--add screenshots of the community links and contact-->
 <h2>The Design</h2>
 <hr>
 <ul>
@@ -135,10 +138,15 @@ The Alpha Gym website will also have content such as classes to show people what
 
 <h2>Testing</h2>
 <hr>
-<p>The testing for the website that was used is the 'W3C Markup Validator' for HTML and for the CSS I used 'W3C CSS Validator'</p>
+<p>The testing for the website that was used is 'W3C Markup Validator' for HTML and for the CSS I used 'W3C CSS Validator'</p>
 <!-- Input here cropped image of the results -->
-<ul>
-    <li></li>
+<ul><h3>CSS</h3>
+    <li>There were no errors found when passing my CSS code in the W3C CSS validator</li>
+    <li>Passing through the HTML validator my website did fail on the buttom, as I stored a button input in an anchor element</li>
+    <li>There were warnings on some pages regarding the section areas, it was asking for headers, problems now solved</li>
+</ul>
+<ul>Bugs
+    <li>When I deploy my website on the classes, the yoga video is not working, but on the gitpod server it works perfectly??</li>
 </ul>
 
 <h2>Deployment</h2>
@@ -161,6 +169,7 @@ The Alpha Gym website will also have content such as classes to show people what
 <ul>
     <li>Credits to Code isntitute for allowing me to use their README template as a reference and allowing me to use their pre-built website base<li>
     <li>Thanks to font-awesome for letting my use their services to be able to add icons in my webpage</li>
+    <li>Credit to pexels for the free videos available, was able to input 4 fitness videos that came from there.</li>
 </ul>
 <hr>
 <ul>
