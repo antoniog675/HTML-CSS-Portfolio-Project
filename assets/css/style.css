@@ -71,21 +71,27 @@ section {
     order: 1;
     text-align: center;
     background-color: #eeeeee;
-    width: 33%;
+    width: 31%;
+    border-radius: 20px;
+    padding: 4px;
 }
 
 .center-container {
     order: 2;
     background-color: #eeeeee;
     text-align: center;
-    width: 33%;
+    width: 31%;
+    border-radius: 20px;
+    padding: 4px;
 }
 
 .right-container {
     order: 3;
     background-color: #eeeeee;
     text-align: center;
-    width: 33%;
+    width: 31%;
+    border-radius: 20px;
+    padding: 4px;
 }
 
 .image-left {
@@ -114,6 +120,8 @@ section {
     margin-bottom: 10px;
     background-color: #eeeeee;
     width: 80%;
+    border-radius: 20px;
+    padding-top: 10px;
 }
 
 .reviews-container-2 {
@@ -122,6 +130,8 @@ section {
     margin-bottom: 10px;
     background-color: #eeeeee;
     width: 75%;
+    border-radius: 20px;
+    padding-top: 10px;
 }
 
 .image-reviews {
@@ -176,6 +186,8 @@ section {
     margin-bottom: 10px;
     width: 23%;
     background: #eeeeee;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 video {
@@ -340,7 +352,12 @@ footer {
     } 
 
     .right-container, .left-container, .center-container {
-        width: 100%;
+        width: 98%;
+    }
+
+    .center-container {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     /* Classes.html responsiveness style*/
@@ -350,7 +367,7 @@ footer {
     }
 
     .exercise-containers {
-        width: 100%;
+        width: 93%;
     }
 
     /* Gallery.html responsiveness style*/
