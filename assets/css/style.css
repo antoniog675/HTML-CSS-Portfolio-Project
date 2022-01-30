@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+h3 {
+    font-size: x-large;
+}
+
 nav span {
     font-family: Staatliches, sans-serif;
 }
@@ -26,7 +30,7 @@ footer {
 }
 
 .reviews-container {
-    font-family: Sedgwick Ave, Arial;
+    font-family: Staatliches, Arial;
 }
 
 /* Style for title and header*/
@@ -59,6 +63,16 @@ section {
     max-width: 100%;
 }
 
+.hero-image {
+    height: 600px;
+    width: 100%;
+    background-image: url(/assets/images/hero-image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+
 .gym-description-container {
     display: flex;
     margin-top: 10px;
@@ -71,16 +85,21 @@ section {
     order: 1;
     text-align: center;
     background-color: #eeeeee;
-    width: 31%;
+    width: 32%;
     border-radius: 20px;
     padding: 4px;
 }
+
+.left-container ul {
+    text-align: left;
+}
+
 
 .center-container {
     order: 2;
     background-color: #eeeeee;
     text-align: center;
-    width: 31%;
+    width: 32%;
     border-radius: 20px;
     padding: 4px;
 }
@@ -88,14 +107,19 @@ section {
 .right-container {
     order: 3;
     background-color: #eeeeee;
-    text-align: center;
-    width: 31%;
+    text-align: right;
+    width: 32%;
     border-radius: 20px;
-    padding: 4px;
+    padding-right: 30px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .image-left {
-    width: 50%;
+    width: 60%;
 }
 
 .image-right {
@@ -108,18 +132,18 @@ section {
 
 .reviews-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #e1e1e1;
     align-items: center;
+    text-align: center;
 }
 
 .reviews-container-1 {
     color: black;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
     background-color: #eeeeee;
-    width: 80%;
+    width: 49%;
     border-radius: 20px;
     padding-top: 10px;
 }
@@ -127,9 +151,9 @@ section {
 .reviews-container-2 {
     color: black;
     text-align: center;
-    margin-bottom: 10px;
+    margin: 10px;
     background-color: #eeeeee;
-    width: 75%;
+    width: 49%;
     border-radius: 20px;
     padding-top: 10px;
 }
@@ -207,9 +231,8 @@ h3 {
 /*  Gallery styling */
 
 .gallery {
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;;
+    column-count: 3;
+    column-gap: 0;
 }
 
 .gallery > img {
@@ -265,7 +288,7 @@ label {
     font-weight: bold;
 }
 
-#submit-button {
+.submit-button {
     display: block;
     width: auto;
     height: auto;
@@ -274,7 +297,7 @@ label {
     font-size: 20px;
 }
 
-#submit-button:hover {
+.submit-button:hover {
     background-color: white;
     color: black;
 }
@@ -387,4 +410,9 @@ footer {
         margin-top: 50px;
     }
     
+    /* Copyright */
+
+    .copyright {
+        text-align: center;
+    }
 }
