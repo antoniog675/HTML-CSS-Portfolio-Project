@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Sedgwick+Ave&family=Staatliches&display=swap');
 
 /* Fonts for the website*/
-body h1, h3, legend {
+body h1, h3, h2, legend {
     font-family: Staatliches, sans-serif;
 }
 a {
     color: white;
     text-decoration: none;
+}
+
+h2 {
+    text-align: center;
 }
 
 h3 {
@@ -66,7 +70,7 @@ section {
 .hero-image {
     height: 600px;
     width: 100%;
-    background-image: url(/assets/images/hero-image.webp);
+    background: url(/assets/images/hero-image.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
