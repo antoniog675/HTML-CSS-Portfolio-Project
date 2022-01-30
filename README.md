@@ -34,7 +34,7 @@ The Alpha Gym website will also have content such as classes to show people what
 
 ![](assets/images/hero-image-main.png)
 
-![](assets/images/gym-info.png)
+![](assets/images/gym-info2.png)
 <hr>
 
 ![](assets/images/testimonials-info2.png)
