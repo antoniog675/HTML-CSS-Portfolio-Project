@@ -369,6 +369,21 @@ footer {
 
 @media screen and (max-width: 550px) {
     /* Index.html responsiveness */
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .gym-header span {
+        margin-right: 0;
+    }
+
+    .hero-image {
+        background-position-x: right;
+    }
+
     .gym-description-container {
         display: flex;
         flex-direction: column;
@@ -376,11 +391,21 @@ footer {
 
     .right-container, .left-container, .center-container {
         width: 98%;
+        text-align: center;
     }
 
     .center-container {
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    .reviews-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reviews-container-1, .reviews-container-2 {
+        width: 90%;
     }
 
     /* Classes.html responsiveness style*/
@@ -403,11 +428,15 @@ footer {
     /* Join_now.html responsiveness style*/
     
     form {
-        width: 75%;
-        height: 60%;
+        width: 80%;
+        height: 50%;
         display: flex;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 100px;
+    }
+
+    fieldset {
+        height: 100%;
     }
     
     /* Copyright */
