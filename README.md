@@ -4,7 +4,7 @@
 The Alpha Gym website will also have content such as classes to show people what the classes are that they can sign up to, a gallery of the gym to be a ble to view it prior to visiting it, and a join now page where they can become members.
 </p>
 
-![](assets/images/amiresponsive-picture.png)
+![](assets/images/amiresponsive-picture2.png)
 
 <h2>User Features</h2>
 <hr>
@@ -22,6 +22,7 @@ The Alpha Gym website will also have content such as classes to show people what
 <ul>
     <li>Home Page</li>
         <ul>
+            <li>First thing you will see is a group of people doing exercise, and this will instantly tell people what this website is about.</li>
             <li>The main page will have 3 sections with information regarding the gym. The left section will have information on the benefits of getting into fitness.
             </li>
             <li>The center section will have information on why 'Alpha Gym' is the gym you would want to go to instead of other local gyms. Such as the benefits of joining this gym and it's competitive price.</li>
@@ -31,10 +32,12 @@ The Alpha Gym website will also have content such as classes to show people what
         </ul>
 </ul>
 
+![](assets/images/hero-image-main.png)
+
 ![](assets/images/gym-info.png)
 <hr>
 
-![](assets/images/testimonials-info.png)
+![](assets/images/testimonials-info2.png)
 
 <ul>
     <li>Classes page</li>
@@ -56,7 +59,9 @@ The Alpha Gym website will also have content such as classes to show people what
         </ul>
 </ul>
 
-![](assets/images/gallery-page2.png)
+![](assets/images/gallery-image3.png)
+
+![](assets/images/gallery-image4.png)
 
 <ul>
     <li>Join Now Form</li>
@@ -100,19 +105,12 @@ The Alpha Gym website will also have content such as classes to show people what
             <li>There will be 5 images in the main page, 4 videos in the classes page, showing users what they are going to expect in these classes, and the gallery will have 10 images of what the gym looks like, such as gym equipment, sauna, studios, classes etc.</li>
         </ul>
 </ul>
-<h2>Wireframes</h2>
-
-![Main page]()
-![Classes page]()
-![Gallery page]()
-![Join now page]()
-
 <h2>Features</h2>
 <hr>
 <ul>
     <li>Responsive on all device sizes</li>
         <ul>
-            <li></li>
+            <li>Tested with the inspect feature on google and website responded well to screen changes</li>
         </ul>
     <li>Interactive elements</li>
         <ul>
@@ -149,7 +147,7 @@ The Alpha Gym website will also have content such as classes to show people what
 <ul><h2>Accessibility</h2>
     <li>I used the lighthouse feature on devtools to show that the colors used, sizes of fonts and the way the site has been structured is easy to read</li>
 
-![](assets/images/lighthouse-website.png)
+![](assets/images/lighthouse-website2.png)
 
 </ul>
 
