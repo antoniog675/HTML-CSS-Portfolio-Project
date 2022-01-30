@@ -70,7 +70,7 @@ section {
 .hero-image {
     height: 600px;
     width: 100%;
-    background: url(/assets/images/hero-image.webp);
+    background: url(../images/hero-image.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
@@ -89,7 +89,7 @@ section {
     order: 1;
     text-align: center;
     background-color: #eeeeee;
-    width: 32%;
+    width: 30%;
     border-radius: 20px;
     padding: 4px;
 }
