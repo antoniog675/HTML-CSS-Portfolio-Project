@@ -67,13 +67,8 @@ section {
     max-width: 100%;
 }
 
-.hero-image {
-    height: 600px;
+.hero-image img {
     width: 100%;
-    background: url(../images/hero-image.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: center;
 }
 
 
@@ -382,10 +377,6 @@ footer {
 
     .gym-header span {
         margin-right: 0;
-    }
-
-    .hero-image {
-        background-position-x: right;
     }
 
     .gym-description-container {
